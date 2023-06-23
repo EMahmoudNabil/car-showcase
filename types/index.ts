@@ -50,10 +50,11 @@ export interface FilterProps {
   export interface CustomFilterProps {
     title: string;
     options: OptionProps[];
+    setFilter:any
   }
 
   export interface ShowMoreProps {
     pageNumber: number;
     isNext: boolean;
-    // setLimit:number
+    setLimit:any
   }
